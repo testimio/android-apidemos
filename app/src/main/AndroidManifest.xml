@@ -2879,6 +2879,16 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name="io.appium.android.custom.TimeAgoActivity"
+            android:label="Custom/TimeAgoList"
+            android:theme="@style/Theme.AppCompat.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="appium.android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
     </application>
 
     <instrumentation android:name=".app.LocalSampleInstrumentation"

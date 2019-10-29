@@ -11,9 +11,14 @@ public final class Shakespeare {
             "Henry VIII",       
             "Richard II",
             "Richard III",
-            "Merchant of Venice",  
+            "Merchant of Venice",
+            "Merchant of Venice 🙀",
             "Othello",
-            "King Lear"
+            "King Lear",
+            "King Lear2",
+            "King Lear3",
+            "King Lear 4",
+            "King Lear 5",
     };
     
     /**

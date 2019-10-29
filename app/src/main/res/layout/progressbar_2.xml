@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <ProgressBar android:id="@+android:id/progress"
+    <ProgressBar android:id="@+id/was_android_progress_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 

@@ -110,19 +110,9 @@ public class DraggableDot extends View {
         final int N = a.getIndexCount();
         for (int i = 0; i < N; i++) {
             int attr = a.getIndex(i);
-            switch (attr) {
-            case R.styleable.DraggableDot_radius: {
-                mRadius = a.getDimensionPixelSize(attr, 0);
-            } break;
-
-            case R.styleable.DraggableDot_legend: {
-                mLegend = a.getText(attr);
-            } break;
-
-            case R.styleable.DraggableDot_anr: {
-                mAnrType = a.getInt(attr, 0);
-            } break;
-            }
+            mRadius = a.getDimensionPixelSize(attr, 0);
+            mLegend = a.getText(attr);
+            mAnrType = a.getInt(attr, 0);
         }
 
         Log.i(TAG, "DraggableDot @ " + this + " : radius=" + mRadius + " legend='" + mLegend
